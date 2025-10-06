@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    </head>
+    <body>
+        <h1>Formuaario de inscripcion</h1>
+        <header>
+            <h2>Menu de navegacion</h2>
+        </header>
+        <menu>
+            <a href="file:///D:/laboratorio06/index.html">Menu principal</a><br></br>
+            <a href="file:///D:/laboratorio06/registro.html">Suscribirse</a><br></br>
+            <a href="file:///D:/laboratorio06/lenguajes.html">Formulario de preferencias</a><br></br>
+            <a href="file:///D:/laboratorio06/validacion.html">Formulario de validacion</a>
+        </menu>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Escribe tu nombre"><br></br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" placeholder="Escribe tu apellido"><br></br>
+        <label for="dni">Documento de indentidad:</label>
+        <input type="number" id="dni" placeholder="Escribe tu dni" pattern="[0-9]" min="0" max="99999999"><br></br>
+        <label for="email" id="email">Gmail:</label>
+        <input type="email" id="email" placeholder="Inserte email"><br></br>
+        <h3>Cursos a inscribirse:</h3><!-- cursos -->
+        <input type="radio" id="a" name="1" value="a">
+        <label for="a">Ajedres</label>
+        <input type="radio" id="n" name="1" value="n">
+        <label for="n">Natacion</label>
+        <input type="radio" id="f" name="1" value="f">
+        <label for="f">Futbol</label><br></br>
+        <h3>Modalidad:</h3><!-- modalidad -->
+        <input type="radio" id="p" name="1" value="p">
+        <label for="p">Presencial</label>
+        <input type="radio" id="v" name="1" value="v">
+        <label for="v">Virtual</label><br></br>
+        <h3>Horarios:</h3><!-- horarios -->
+        <input type="radio" id="m" name="1" value="m">
+        <label for="m">Mañana</label>
+        <input type="radio" id="t" name="2" value="t">
+        <label for="t">Tarde</label>
+        <input type="radio" id="n" name="3" value="n">
+        <label for="n">Noche</label><br></br>
+        <button type="submit">Enviar</button> <!-- botones de restablecer y enviar -->
+        <button type="submit">Restablecer</button>
+    </body>
+</html>
